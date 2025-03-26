@@ -11,60 +11,32 @@
             margin: 20px;
         }
         .container {
-            max-width: 400px;
+            max-width: 600px;
             margin: auto;
             padding: 20px;
             border: 1px solid #ddd;
-            border-radius: 1ACC613250px;
+            border-radius: 10px;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
         }
         .logo {
             width: 100px;
             margin-bottom: 20px;
         }
-        button {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
+        iframe {
+            width: 100%;
+            height: 600px;
             border: none;
-            border-radius: 5px;
-            cursor: pointer;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJMnQ2aZ8sO_d0ahj01nIgjcThU5ncQou9Qw&s" alt="Bravo Telecom Logo" class="logo">
+        <img src="https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/298790590_435841538562915_9072475049125381972_n.png?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=meNBwBO_oIQQ7kNvgEdr74j&_nc_oc=AdnqEg5I5tdURfvzyO0U9bOMFY5ize8PvXxwN62q9Wpvl-_UztgxH-2zU6HOYzQpXB4&_nc_zt=23&_nc_ht=scontent-bos5-1.xx&_nc_gid=_06WcKVqOEnejjUxy5Fs4w&oh=00_AYEWrJaif6Kom4rY8igzDpSXw__SQ8aH-_UgI7M8Apv4Gg&oe=67E8CDBD" alt="Bravo Telecom Logo" class="logo">
         <h2>Enquête de Satisfaction</h2>
-        <p>Comment évaluez-vous votre expérience en magasin ?</p>
-        <form action="mailto:oussama.laajini@bravotelecom.com" method="post" enctype="text/plain">
-            <label>
-                <input type="radio" name="satisfaction" value="Très satisfait"> Très satisfait
-            </label><br>
-            <label>
-                <input type="radio" name="satisfaction" value="Satisfait"> Satisfait
-            </label><br>
-            <label>
-                <input type="radio" name="satisfaction" value="Neutre"> Neutre
-            </label><br>
-            <label>
-                <input type="radio" name="satisfaction" value="Insatisfait"> Insatisfait
-            </label><br>
-            <label>
-                <input type="radio" name="satisfaction" value="Très insatisfait"> Très insatisfait
-            </label><br><br>
-            
-            <p>Étiez-vous satisfait de la prestation de nos représentants à notre succursale ?</p>
-            <label>
-                <input type="radio" name="prestation" value="Oui"> Oui
-            </label>
-            <label>
-                <input type="radio" name="prestation" value="Non"> Non
-            </label><br><br>
-            
-            <textarea name="commentaire" placeholder="Laissez un commentaire..." rows="4" cols="30"></textarea><br><br>
-            <button type="submit">Envoyer</button>
-        </form>
+        <p>Merci d'avoir visité notre succursale. Veuillez répondre à notre enquête de satisfaction ci-dessous :</p>
+        
+        <!-- Embed Google Form -->
+        <iframe src="https://forms.gle/CswB85wAtNUfhwb37" title="Enquête de Satisfaction Bravo Telecom"></iframe>
     </div>
 </body>
 </html>
