@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquête de Satisfaction - Bravo Telecom</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 1ACC613250px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJMnQ2aZ8sO_d0ahj01nIgjcThU5ncQou9Qw&s" alt="Bravo Telecom Logo" class="logo">
+        <h2>Enquête de Satisfaction</h2>
+        <p>Comment évaluez-vous votre expérience en magasin ?</p>
+        <form action="mailto:oussama.laajini@bravotelecom.com" method="post" enctype="text/plain">
+            <label>
+                <input type="radio" name="satisfaction" value="Très satisfait"> Très satisfait
+            </label><br>
+            <label>
+                <input type="radio" name="satisfaction" value="Satisfait"> Satisfait
+            </label><br>
+            <label>
+                <input type="radio" name="satisfaction" value="Neutre"> Neutre
+            </label><br>
+            <label>
+                <input type="radio" name="satisfaction" value="Insatisfait"> Insatisfait
+            </label><br>
+            <label>
+                <input type="radio" name="satisfaction" value="Très insatisfait"> Très insatisfait
+            </label><br><br>
+            
+            <p>Étiez-vous satisfait de la prestation de nos représentants à notre succursale ?</p>
+            <label>
+                <input type="radio" name="prestation" value="Oui"> Oui
+            </label>
+            <label>
+                <input type="radio" name="prestation" value="Non"> Non
+            </label><br><br>
+            
+            <textarea name="commentaire" placeholder="Laissez un commentaire..." rows="4" cols="30"></textarea><br><br>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</body>
+</html>
